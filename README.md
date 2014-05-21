@@ -20,6 +20,18 @@ var winstonKibana = require('winston-kibana');
 winston.addRewriter(winstonKibana({application: 'my-application'}));
 ```
 
+### winstonKibana(options)
+
+Add some metadata useful for Kibana:
+
+- @timestamp: an ISO string timestamp
+- level: the level of the message
+- hostname: the hostname of the server
+- env: the current environement (NODE_ENV)
+- category: default to 'no-category' if there is no previous category defined
+
+Default metadata are extended with `options`.
+
 ## License
 
 MIT
