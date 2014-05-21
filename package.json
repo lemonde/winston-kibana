@@ -1,0 +1,25 @@
+{
+  "name": "winston-kibana",
+  "version": "0.0.0",
+  "description": "Winston rewriter to optimized logs for Kibana usage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lemonde/winston-kibana.git"
+  },
+  "keywords": [
+    "winston",
+    "kibana",
+    "rewriter",
+    "log"
+  ],
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemonde/winston-kibana/issues"
+  },
+  "homepage": "https://github.com/lemonde/winston-kibana"
+}
