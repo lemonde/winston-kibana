@@ -1,5 +1,8 @@
-var _ = require('lodash');
 var os = require('os');
+var _ = {
+  extend: require('lodash.assign'),
+  clone: require('lodash.clone')
+};
 
 /**
  * Expose module.
