@@ -1,6 +1,6 @@
 {
   "name": "winston-kibana",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Winston rewriter to optimized logs for Kibana usage.",
   "main": "index.js",
   "scripts": {
